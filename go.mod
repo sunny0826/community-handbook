@@ -1,6 +1,6 @@
 module github.com/sunny0826/community-handbook
 
-go 1.23.0
+go 1.21
 
 require (
 	github.com/colinwilson/lotusdocs v0.1.0 // indirect
