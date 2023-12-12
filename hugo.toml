@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://handbook.morethancode.plus/'
 languageCode = 'zh-cn'
 title = '开源社区治理工作手册'
 enableEmoji = true
