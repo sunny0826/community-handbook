@@ -1,0 +1,52 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v0.1.0
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  titleLogo:
+    path: "images/logos"
+    filename: "title_logo.png"
+    alt: "Handbook Logo"
+    height: 80px
+
+  title: "开源社区治理工作手册"
+  subtitle: 本手册内容主要为开源社区运营人员提供参考，但实际的开源项目种类繁多，社区情况纷繁复杂，我们鼓励在实际的运营工作中进行创新，**没有必要**一定按照本手册的指导进行社区运营活动。
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "docs_screenshot.png" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "快速开始"
+    url: "/docs/readme"
+  cta2Button:
+    icon: construction
+    btnText: "反馈问题"
+    url: "https://atomgit.com/OpenAtomFoundation/OpenSource_Governance/issues/create"
+
+  info: "本手册将持续处于迭代更新的状态，会不断地基于实际情况进行内容的更新，欢迎提出建议并参与内容的贡献。"
+
+features:
+  enable: false
+
+image_compare:
+  enable: false
