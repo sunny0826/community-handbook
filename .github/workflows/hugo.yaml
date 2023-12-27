@@ -48,7 +48,6 @@ jobs:
       - name: Get Handbook content
         run: |
           git clone https://atomgit.com/OpenAtomFoundation/OpenSource_Governance.git handbook
-          rm -rf content/docs/*
           cp -r handbook/community-handbook/* content/docs/
           rm -rf handbook
       - name: Setup Pages
