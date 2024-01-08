@@ -1,5 +1,6 @@
 .DS_Store
 .idea/
 dist/
-/content/docs/
+/content/docs/*
+!/content/docs/.gitkeep
 /public/
