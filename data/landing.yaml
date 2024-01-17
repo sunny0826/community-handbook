@@ -25,7 +25,7 @@ hero:
     height: 80px
 
   title: "开源社区治理工作手册"
-  subtitle: 本手册内容主要为开源社区运营人员提供参考，但实际的开源项目种类繁多，社区情况纷繁复杂，我们鼓励在实际的运营工作中进行创新，**没有必要**一定按照本手册的指导进行社区运营活动。
+  subtitle: 开源**并不是高级俱乐部**，它就是由你这样的人所浇铸和打造。“开源”只是针对这个世界的需要修复的问题的一个梦幻术语罢了。
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
@@ -43,7 +43,7 @@ hero:
     btnText: "反馈问题"
     url: "https://atomgit.com/OpenAtomFoundation/OpenSource_Governance/issues/create"
 
-  info: "本手册将持续处于迭代更新的状态，会不断地基于实际情况进行内容的更新，欢迎提出建议并参与内容的贡献。"
+  info: "本手册内容主要为开源社区运营人员提供参考，但实际的开源项目种类繁多，社区情况纷繁复杂，我们鼓励在实际的运营工作中进行创新，**没有必要**一定按照本手册的指导进行社区运营活动。本手册将持续处于迭代更新的状态，会不断地基于实际情况进行内容的更新，欢迎提出建议并参与内容的贡献。"
 
 features:
   enable: false
